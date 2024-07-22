@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+        <menuitem
+            name="ITDS"
+            id="menu_itds_root"
+            web_icon="ITds,static/description/icon.png"
+            sequence="10"
+        />
+                <menuitem
+                    name="Client"
+                    id="menu_client"
+                    parent="menu_itds_root"
+                    action="action_client"
+                    sequence="10"
+                />
+          
+
+              </odoo>
